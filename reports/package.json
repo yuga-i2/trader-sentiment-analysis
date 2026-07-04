@@ -1,0 +1,12 @@
+{
+  "name": "sentiment-analysis-report",
+  "version": "1.0.0",
+  "description": "Optional Word (.docx) report generator for the trader sentiment analysis",
+  "private": true,
+  "scripts": {
+    "build": "node build_report.js"
+  },
+  "dependencies": {
+    "docx": "^8.5.0"
+  }
+}

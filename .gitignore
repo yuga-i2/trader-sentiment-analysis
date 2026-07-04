@@ -1,2 +1,28 @@
+# Data (large / private trading data — do not commit)
 data/*.csv
-outputs/
+
+# Generated outputs
+outputs/*.png
+outputs/*.csv
+outputs/*.docx
+outputs/*.pdf
+cli.log
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+
+# Node (reports/)
+reports/node_modules/
+reports/package-lock.json
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
